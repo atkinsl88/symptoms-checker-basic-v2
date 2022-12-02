@@ -1,0 +1,28 @@
+@include media-breakpoint-up (xs) {
+  .navigation {
+    border-bottom: 1px solid #D6D6D6;
+    background-color: $primary-white;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    img {
+      max-width: 120px;
+    }
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100px;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 40px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    img {
+      max-width: 120px;
+      float: right;
+    }
+  }
+}

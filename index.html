@@ -1,12 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVXQ990GYK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YVXQ990GYK');
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Symtoms Checker | Start Screen</title>
+  </head>
+  <body>
+    <section class="navigation">
+      <div class="container">
+        <img src="./src/images/gif_logo_opt.gif" />
+      </div>
+    </section>
+
+    <section class="contents-screen">
+      <div class="contents-screen-contents container">
+        <div class="contents-text">
+          <h1>Symptom checker</h1>
+          <p>
+            Iron deficiency is more common than you think, but symptoms are
+            often ignored or overlooked.
+          </p>
+          <div class="contents-text-button">
+            <a
+              href="#symptoms-you-feel"
+              class="primary"
+              onclick="xxx"
+              id="feel-button"
+              >Check your symtpoms</a
+            >
+          </div>
+        </div>
+        <div class="contents-image">
+          <img src="./src/images/start-screen-image.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contents-screen" id="symptoms-you-feel">
+      <div class="contents-screen-contents container">
+        <div class="contents-text">
+          <p class="steps">Step 1 of 3</p>
+          <h1 class="title">Select the symptoms you feel</h1>
+          <p class="intro">
+            Is iron deficiency affecting the way you feel? Select all the
+            symptoms relevant to you.
+          </p>
+          <p class="apply">Select all that apply:</p>
+          <div class="contents-form">
+            <form action="/action_page.php">
+              <div class="contents-form-fields">
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle1"
+                    name="vehicle1"
+                    value="Bike"
+                  />
+                  <label for="vehicle1">Mental Fatigue</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle2"
+                    name="vehicle2"
+                    value="Car"
+                  />
+                  <label for="vehicle2">Cold Intolerance</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle3"
+                    name="vehicle3"
+                    value="Boat"
+                  />
+                  <label for="vehicle3">Chewing Ice</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle4"
+                    name="vehicle5"
+                    value="Boat"
+                  />
+                  <label for="vehicle4">Cravings</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle5"
+                    name="vehicle5"
+                    value="Boat"
+                  />
+                  <label for="vehicle5">Restless Legs</label>
+                </div>
+              </div>
+              <div class="contents-text-button">
+                <a
+                  href="#symptoms-you-see"
+                  class="primary"
+                  onclick="xxx"
+                  id="feel-button"
+                  >Submit</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contents-image">
+          <img src="./src/images/you-feel-screen-image.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contents-screen" id="symptoms-you-see">
+      <div class="contents-screen-contents container">
+        <div class="contents-text">
+          <p class="steps">Step 2 of 3</p>
+          <h1 class="title">Select the symptoms you see</h1>
+          <p class="intro">Is your body showing you that you’re low in iron?</p>
+          <p class="apply">Select all that apply:</p>
+          <div class="contents-form">
+            <form action="/action_page.php">
+              <div class="contents-form-fields">
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle1"
+                    name="vehicle1"
+                    value="Bike"
+                  />
+                  <label for="vehicle1">Hair Loss</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle2"
+                    name="vehicle2"
+                    value="Car"
+                  />
+                  <label for="vehicle2">Paleness</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle3"
+                    name="vehicle3"
+                    value="Boat"
+                  />
+                  <label for="vehicle3">Easy Bruising</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle4"
+                    name="vehicle5"
+                    value="Boat"
+                  />
+                  <label for="vehicle4">Ulcers</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle5"
+                    name="vehicle5"
+                    value="Boat"
+                  />
+                  <label for="vehicle5">Brittle Nails</label>
+                </div>
+              </div>
+              <div class="contents-text-button">
+                <a
+                  href="#symptoms-slowing-you"
+                  class="primary"
+                  onclick="xxx"
+                  id="feel-button"
+                  >Submit</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contents-image">
+          <img src="./src/images/you-see-screen-image.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contents-screen" id="symptoms-slowing-you">
+      <div class="contents-screen-contents container">
+        <div class="contents-text">
+          <p class="steps">Step 3 of 3</p>
+          <h1 class="title">Select the symptoms slowing you down</h1>
+          <p class="intro">
+            Do you feel constantly worn out, with a series of additional,
+            seemingly unrelated, symptoms?
+          </p>
+          <p class="apply">Select all that apply:</p>
+          <div class="contents-form">
+            <form action="/action_page.php">
+              <div class="contents-form-fields">
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle1"
+                    name="vehicle1"
+                    value="Bike"
+                  />
+                  <label for="vehicle1">Short Breath</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle2"
+                    name="vehicle2"
+                    value="Car"
+                  />
+                  <label for="vehicle2">Headaches</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle3"
+                    name="vehicle3"
+                    value="Boat"
+                  />
+                  <label for="vehicle3">Loss of Energy</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle4"
+                    name="vehicle5"
+                    value="Boat"
+                  />
+                  <label for="vehicle4">Loss of Libido</label>
+                </div>
+                <div class="form-field">
+                  <input
+                    type="checkbox"
+                    id="vehicle5"
+                    name="vehicle5"
+                    value="Boat"
+                  />
+                  <label for="vehicle5">Irritability</label>
+                </div>
+              </div>
+              <div class="contents-text-button">
+                <a
+                  href="#results"
+                  class="primary"
+                  onclick="xxx"
+                  id="feel-button"
+                  >Submit</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contents-image">
+          <img src="./src/images/slowing-you-screen-image.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contents-screen" id="results">
+      <div class="contents-screen-contents container">
+        <div class="contents-text results">
+          <h1>Find out how we can help</h1>
+          <p>
+            Recognising your symptoms is an important step in checking if you
+            may have iron deficiency.
+          </p>
+          <p>
+            If you chose one or more symptoms that could relate to you being low
+            in iron, don’t worry, there’s plenty you can do to relieve iron
+            deficiency and its impacts on your life.
+          </p>
+          <p>
+            To get the most out of the appointment with your Doctor, submit your
+            details to receive the results of your symptom selection and our
+            free Patient Discussion guide.
+          </p>
+          <p>
+            If you didn’t choose any symptoms but you’re still concerned that
+            you, or someone you know, may be iron deficient, please speak to
+            your doctor to request a dedicated blood test.
+          </p>
+        </div>
+        <div class="contents-form-large">
+          <h3>Enter your details</h3>
+          <form action="/action_page.php">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <div>
+              <input type="checkbox" />
+              <label class="checkbox" for="xxx"
+                >I agree that by submitting this form, I accept the website’s
+                terms of use.</label
+              >
+            </div>
+            <div>
+              <input type="checkbox" />
+              <label class="checkbox" for="xxx"
+                >Sign up to GSK email newsletter.</label
+              >
+            </div>
+            <a href="#thankyou" class="primary" onclick="xxx" id="feel-button"
+              >Submit</a
+            >
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="contents-screen" id="thankyou">
+      <div class="contents-screen-contents container">
+        <div class="contents-text-center">
+          <h1>Thank you...</h1>
+          <p>
+            You will be sent a free Patient Discussion guide shortly via email.
+          </p>
+          <p>The application will automatically restart in 3 seconds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <img class="restart-btn" src="./src/images/restart.png" />
+      </div>
+    </footer>
+
+    <script src="./src/js/animated-scroll.js"></script>
+    <script src="./src/js/restart-button.js"></script>
+    <script src="./src/js/timeout.js"></script>
+
+  </body>
 </html>

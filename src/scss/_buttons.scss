@@ -1,0 +1,14 @@
+@include media-breakpoint-up (xs) {
+  .primary {
+    background-color: $primary-color;
+    color: $primary-white;
+    border: $primary-color;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    @extend p;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    width: fit-content;
+  }
+}
