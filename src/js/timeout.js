@@ -1,3 +1,3 @@
-setTimeout(function(){
-  location.replace("index.html")
+setTimeout(function () {
+  location.replace("index.html");
 }, 180000);
