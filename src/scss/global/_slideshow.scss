@@ -5,8 +5,19 @@
     margin: auto;
   }
 
-  .mySlides {
+  .slidesFeel {
     display: none;
+    margin: 0 3rem;
+  }
+
+  .slidesSee {
+    display: none;
+    margin: 0 3rem;
+  }
+
+  .slidesSlow {
+    display: none;
+    margin: 0 3rem;
   }
 
   .prev,
@@ -25,7 +36,6 @@
     user-select: none;
   }
 
-  /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;

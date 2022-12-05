@@ -1,8 +1,14 @@
 /** Font Styles **/
+
+@font-face {
+  font-family: GSK;
+  src: url("../fonts/GSKPrecision-Regular.ttf")
+}
+
 @include media-breakpoint-up (xs) {
 
   %heading {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'GSK', sans-serif;
     font-weight: 400;
     letter-spacing: -1px;
     color: $primary-black;
@@ -10,7 +16,7 @@
   }
 
   %paragraph {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'GSK', sans-serif;
     font-weight: 400;
     color: $primary-black;
   }

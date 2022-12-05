@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Analyics Code -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVXQ990GYK"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -9,17 +10,22 @@
 
       gtag('config', 'G-YVXQ990GYK');
     </script>
+    <!-- Hotjar Tracking Code -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:3275807,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <title>Symtoms Checker | Start Screen</title>
+    <title>Symtoms Checker | Iron Deficiency</title>
   </head>
   <body>
     <section class="navigation">
@@ -41,9 +47,16 @@
               href="#symptoms-you-feel"
               class="primary"
               onclick="xxx"
-              id="feel-button"
-              >Check your symtpoms</a
+              id="patientButton"
+              >I'm a Patient</a
             >
+            <a
+              href="#symptoms-you-feel"
+              class="secondary doctor-btn"
+              onclick="xxx"
+              id="doctorButton"
+              >I'm a Doctor</a
+          >
           </div>
         </div>
         <div class="contents-image">
@@ -63,52 +76,52 @@
           </p>
           <p class="apply">Select all that apply:</p>
           <div class="contents-form">
-            <form action="/action_page.php">
+            <form action="xxx">
               <div class="contents-form-fields">
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle1"
-                    name="vehicle1"
-                    value="Bike"
+                    id="xxx"
+                    name="xxx"
+                    value="Mental Fatigue"
                   />
-                  <label for="vehicle1">Mental Fatigue</label>
+                  <label for="xxx">Mental Fatigue</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle2"
-                    name="vehicle2"
-                    value="Car"
+                    id="xxx"
+                    name="xxx"
+                    value="Cold Intolerance"
                   />
-                  <label for="vehicle2">Cold Intolerance</label>
+                  <label for="xxx">Cold Intolerance</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle3"
-                    name="vehicle3"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Chewing Ice"
                   />
-                  <label for="vehicle3">Chewing Ice</label>
+                  <label for="xxx">Chewing Ice</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle4"
-                    name="vehicle5"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Cravings"
                   />
-                  <label for="vehicle4">Cravings</label>
+                  <label for="xxx">Cravings</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle5"
-                    name="vehicle5"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Restless Legs"
                   />
-                  <label for="vehicle5">Restless Legs</label>
+                  <label for="xxx">Restless Legs</label>
                 </div>
               </div>
               <div class="contents-text-button">
@@ -124,17 +137,25 @@
           </div>
           <div class="contents-slider">
             <div class="slideshow-container">
-              <div class="mySlides fade">
+              <div class="slidesFeel fade">
                 <h4>Mental Fatigue</h4>
-                <p>Everyone gets tired from time to time. If you have permanent brain fog, however, which doesn’t clear after a good night’s sleep, and you’re finding it hard to manage your mood, it could mean that you’re iron deficient. </p>
+                <p>Everyone gets tired from time to time. If you have permanent brain fog, however, which doesn’t clear after a good night’s sleep, and you’re finding it hard to manage your mood, it could mean that you’re iron deficient.</p>
               </div>
-              <div class="mySlides fade">
+              <div class="slidesFeel fade">
                 <h4>Cravings</h4>
                 <p>Regularly wanting to eat unusual things with no nutritional value such as clay, ash, soil or paper is a sign of being low in iron and you should speak to a doctor.</p>
               </div>
-              <div class="mySlides fade">
+              <div class="slidesFeel fade">
+                <h4>Cold Intolerance</h4>
+                <p>Iron plays an important role in supporting your body’s ability to regulate its own temperature. Being low in iron can lead to poor circulation, particularly in your hands and feet, which results in cold intolerance.</p>
+              </div>
+              <div class="slidesFeel fade">
+                <h4>Restless Legs</h4>
+                <p>There’s a strong correlation between iron and the nervous system, relating to conditions such as restless legs syndrome. This makes you feel the need to ‘shake out’ your legs (or arms) to relieve throbbing, aching, itching, burning or cramping feelings. It can often happen at night and so affect your sleep.</p>
+              </div>
+              <div class="slidesFeel fade">
                 <h4>Chewing Ice</h4>
-                <p>Craving and chewing ice (pagophagia) is commonly associated with iron deficiency. People with pagophagia can eat large quantities of ice every day. This can damage the teeth and gums, so it’s important to seek treatment. </p>
+                <p>Craving and chewing ice (pagophagia) is commonly associated with iron deficiency. People with pagophagia can eat large quantities of ice every day. This can damage the teeth and gums, so it’s important to seek treatment.</p>
               </div>
               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
               <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -160,47 +181,47 @@
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle1"
-                    name="vehicle1"
-                    value="Bike"
+                    id="xxx"
+                    name="xxx"
+                    value="Hair Loss<"
                   />
-                  <label for="vehicle1">Hair Loss</label>
+                  <label for="xxx">Hair Loss</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle2"
-                    name="vehicle2"
-                    value="Car"
+                    id="xxx"
+                    name="xxx"
+                    value="Paleness"
                   />
-                  <label for="vehicle2">Paleness</label>
+                  <label for="xxx">Paleness</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle3"
-                    name="vehicle3"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Easy Bruising"
                   />
-                  <label for="vehicle3">Easy Bruising</label>
+                  <label for="xxx">Easy Bruising</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle4"
-                    name="vehicle5"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Ulcers"
                   />
-                  <label for="vehicle4">Ulcers</label>
+                  <label for="xxx">Ulcers</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle5"
-                    name="vehicle5"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Brittle Nails"
                   />
-                  <label for="vehicle5">Brittle Nails</label>
+                  <label for="xxx">Brittle Nails</label>
                 </div>
               </div>
               <div class="contents-text-button">
@@ -213,6 +234,32 @@
                 >
               </div>
             </form>
+          </div>
+          <div class="contents-slider">
+            <div class="slideshow-container">
+              <div class="slidesSee fade">
+                <h4>Hair Loss</h4>
+                <p>You need iron for a healthy head of hair. Losing hair in clumps or noticing more falling out than usual when you’re washing or combing your hair could be an indication of iron deficiency.</p>
+              </div>
+              <div class="slidesSee fade">
+                <h4>Paleness</h4>
+                <p>Looking very pale is a sign of iron deficiency and you may notice this in your face, in your nails, inside your mouth, or in the lining of your eyes. A handy test is to pull your lower eyelid down: if it’s pale peach or yellow in colour, this may indicate iron deficiency anaemia.</p>
+              </div>
+              <div class="slidesSee fade">
+                <h4>Easy Bruising</h4>
+                <p>Bruising is caused by damage to the blood vessels beneath the skin by a knock or other injury. Do you bruise easily? This has long been associated with iron deficiency. </p>
+              </div>
+              <div class="slidesSee fade">
+                <h4>Ulcers</h4>
+                <p>You can get mouth ulcers for many reasons, including stress, feeling run-down, and being low in iron. </p>
+              </div>
+              <div class="slidesSee fade">
+                <h4>Brittle Nails</h4>
+                <p>Nails with a dip in the middle, like a spoon, are a sign of iron deficiency anaemia. If your nails are brittle or you notice other changes in colour or shape, increasing your iron levels could help.</p>
+              </div>
+              <a class="prev" onclick="plusSlidesSee(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlidesSee(1)">&#10095;</a>
+            </div>
           </div>
         </div>
         <div class="contents-image">
@@ -237,59 +284,85 @@
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle1"
-                    name="vehicle1"
-                    value="Bike"
+                    id="xxx"
+                    name="xxx"
+                    value="Short Breath"
                   />
-                  <label for="vehicle1">Short Breath</label>
+                  <label for="xxx">Short Breath</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle2"
-                    name="vehicle2"
-                    value="Car"
+                    id="xxx"
+                    name="xxx"
+                    value="Headaches"
                   />
-                  <label for="vehicle2">Headaches</label>
+                  <label for="xxx">Headaches</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle3"
-                    name="vehicle3"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Loss of Energy"
                   />
-                  <label for="vehicle3">Loss of Energy</label>
+                  <label for="xxx">Loss of Energy</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle4"
-                    name="vehicle5"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Loss of Libido"
                   />
-                  <label for="vehicle4">Loss of Libido</label>
+                  <label for="xxx">Loss of Libido</label>
                 </div>
                 <div class="form-field">
                   <input
                     type="checkbox"
-                    id="vehicle5"
-                    name="vehicle5"
-                    value="Boat"
+                    id="xxx"
+                    name="xxx"
+                    value="Irritability"
                   />
-                  <label for="vehicle5">Irritability</label>
+                  <label for="xxx">Irritability</label>
                 </div>
               </div>
               <div class="contents-text-button">
                 <a
-                  href="#results"
+                  href="#"
                   class="primary"
-                  onclick="xxx"
-                  id="feel-button"
+                  onclick="getMychoice()"
+                  id="myChoice"
                   >Submit</a
                 >
               </div>
             </form>
+          </div>
+          <div class="contents-slider">
+            <div class="slideshow-container">
+              <div class="slidesSlow fade">
+                <h4>Short Breath</h4>
+                <p>Iron is essential for the movement of oxygen around your body. If you get out of breath walking up stairs and can’t exercise as much as you’d like, you may be iron deficient. </p>
+              </div>
+              <div class="slidesSlow fade">
+                <h4>Headaches</h4>
+                <p>If you’re getting worse headaches than usual and they’re becoming more frequent, speak to your doctor and ask to have your iron levels checked.</p>
+              </div>
+              <div class="slidesSlow fade">
+                <h4>Loss of Energy</h4>
+                <p>Feeling tired all the time and not having the energy to do simple day-to-day tasks is referred to as fatigue. It’s different to the temporary exhaustion you feel from overdoing it. Unexplained and persistent fatigue is one of the most common symptoms of iron deficiency.</p>
+              </div>
+              <div class="slidesSlow fade">
+                <h4>Loss of Libido</h4>
+                <p>Being low in iron can lead to erectile dysfunction or a lack of interest in sex. It’s worth talking to a healthcare professional if you’re experiencing an unexplained loss of libido.</p>
+              </div>
+              <div class="slidesSlow fade">
+                <h4>Irritability</h4>
+                <p>Constantly struggling against physical and mental exhaustion and mood swings from low iron levels feels frustrating and can make you more irritable than usual. </p>
+              </div>
+              <a class="prev" onclick="plusSlidesSlow(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlidesSlow(1)">&#10095;</a>
+            </div>
           </div>
         </div>
         <div class="contents-image">
@@ -298,10 +371,10 @@
       </div>
     </section>
 
-    <section class="contents-screen" id="results">
+    <section class="contents-screen" id="results-patient">
       <div class="contents-screen-contents container">
         <div class="contents-text results">
-          <h1>Find out how we can help</h1>
+          <h1>Find out how GSK can help</h1>
           <p>
             Recognising your symptoms is an important step in checking if you
             may have iron deficiency.
@@ -348,6 +421,54 @@
       </div>
     </section>
 
+    <section class="contents-screen" id="results-doctor">
+      <div class="contents-screen-contents container">
+        <div class="contents-text results">
+          <h1>For Doctors...</h1>
+          <p>
+            Recognising your patients symptoms is an important step in checking if you
+            may have iron deficiency.
+          </p>
+          <p>
+            If you chose one or more symptoms that could relate to you being low
+            in iron, don’t worry, there’s plenty you can do to relieve iron
+            deficiency and its impacts on your life.
+          </p>
+          <p>
+            To get the most out of the appointment with your Patient, submit their
+            details to receive the results of your symptom selection and a
+            free Patient Discussion guide.
+          </p>
+          <p>
+            If you didn’t choose any symptoms but you’re still concerned that
+            your patient may be iron deficient, please look to
+            advise a dedicated blood test.
+          </p>
+        </div>
+        <div class="contents-form-large">
+          <h3>Schedule an onsite appointment</h3>
+          <form action="/action_page.php">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+            <label for="session">Date:</label>
+            <input type="date" id="session" name="session">
+            <label for="appt">Time:</label>
+            <input type="time" id="appt" name="appt">
+            <div>
+              <input type="checkbox" />
+              <label class="checkbox" for="xxx"
+                >I agree that by submitting this form, I accept the website’s
+                terms of use on the patients behalf.</label
+              >
+            </div>
+            <a href="#thankyou" class="primary" onclick="xxx" id="feel-button"
+              >Submit</a
+            >
+          </form>
+        </div>
+      </div>
+    </section>
+
     <section class="contents-screen" id="thankyou">
       <div class="contents-screen-contents container">
         <div class="contents-text-center">
@@ -355,7 +476,7 @@
           <p>
             You will be sent a free Patient Discussion guide shortly via email.
           </p>
-          <p>The application will automatically restart in 3 seconds.</p>
+          <p>Click the restart button.</p>
           </div>
         </div>
       </div>
@@ -370,7 +491,10 @@
     <script src="./src/js/animated-scroll.js"></script>
     <script src="./src/js/restart-button.js"></script>
     <script src="./src/js/timeout.js"></script>
-    <script src="./src/js/slider.js"></script>
+    <script src="./src/js/doctor.js"></script>
+    <script src="./src/js/slider-feel.js"></script>
+    <script src="./src/js/slider-see.js"></script>
+    <script src="./src/js/slider-slow.js"></script>
 
   </body>
 </html>

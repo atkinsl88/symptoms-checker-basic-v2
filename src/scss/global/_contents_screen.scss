@@ -48,9 +48,6 @@
       padding: 1rem;
       margin: 3rem 0;
       border-radius: 10px;
-      .mySlides {
-        margin: 0 3rem;
-      }
     }
   }
   .contents-text-center {
@@ -79,6 +76,13 @@
       border-bottom: 1px solid#838281;
       margin-bottom: 1rem;
       padding: 0.5rem;
+      color: #838281;
+    }
+    label {
+      margin: 0;
+    }
+    label.checkbox {
+      font-size: 0.75rem;
     }
   }
   .results {
